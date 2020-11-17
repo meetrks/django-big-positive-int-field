@@ -3,7 +3,7 @@ from setuptools import setup
 description = 'Generic model field for storing big integer field.'
 
 try:
-    with open('README.rst') as f:
+    with open('README.md') as f:
         long_description = f.read()
 except IOError:
     long_description = description
