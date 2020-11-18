@@ -10,12 +10,13 @@ except IOError:
 
 setup(
     name='django-big-positive-int-field',
-    version='1.0.0',
+    version='1.1.0',
     description=description,
     author='Rahul',
     author_email='skrsinghrahul@gmail.com',
     url='https://github.com/meetrks/django-big-positive-int-field',
     long_description=long_description,
+    long_description_content_type="text/markdown",
     packages=['big_positive_int_field'],
     install_requires=['django >= 2.2'],
     classifiers=[
